@@ -39264,12 +39264,12 @@ __d(
     m.exports = r(d[0]).registerAsset({
       __packager_asset: !0,
       httpServerLocation:
-        "/assets/node_modules/@react-navigation/elements/lib/module/assets",
+        "./assets/img",
       width: 96,
       height: 96,
       scales: [1],
       hash: "35ba0eaec5a4f5ed12ca16fabeae451d",
-      name: "back-icon.35ba0eaec5a4f5ed12ca16fabeae451d",
+      name: "back-icon",
       type: "png",
       fileHashes: ["35ba0eaec5a4f5ed12ca16fabeae451d"],
     });
@@ -39282,12 +39282,12 @@ __d(
     m.exports = r(d[0]).registerAsset({
       __packager_asset: !0,
       httpServerLocation:
-        "/assets/node_modules/@react-navigation/elements/lib/module/assets",
+        "./assets/img",
       width: 50,
       height: 85,
       scales: [1],
       hash: "5223c8d9b0d08b82a5670fb5f71faf78",
-      name: "back-icon-mask.5223c8d9b0d08b82a5670fb5f71faf78",
+      name: "back-icon-mask",
       type: "png",
       fileHashes: ["5223c8d9b0d08b82a5670fb5f71faf78"],
     });
