@@ -14466,7 +14466,7 @@ __d(
       if (!n && t && t.__esModule) return t;
       if (null === t || ("object" != typeof t && "function" != typeof t))
         return { default: t };
-      var o = j(n);
+      var o = y(n);
       if (o && o.has(t)) return o.get(t);
       var c = {},
         u = Object.defineProperty && Object.getOwnPropertyDescriptor;
@@ -14487,22 +14487,23 @@ __d(
       l = t(r(d[9])),
       s = t(r(d[10])),
       p = t(r(d[11])),
-      v = r(d[12]);
-    function j(t) {
+      j = t(r(d[12])),
+      v = r(d[13]);
+    function y(t) {
       if ("function" != typeof WeakMap) return null;
       var n = new WeakMap(),
         o = new WeakMap();
-      return (j = function (t) {
+      return (y = function (t) {
         return t ? o : n;
       })(t);
     }
-    var y = (0, o.createNativeStackNavigator)();
+    var h = (0, o.createNativeStackNavigator)();
     e.default = function () {
       return (0, v.jsx)(n.NavigationContainer, {
-        children: (0, v.jsxs)(y.Navigator, {
+        children: (0, v.jsxs)(h.Navigator, {
           children: [
-            (0, v.jsx)(y.Screen, { name: "AHA ACLS", component: c.default }),
-            (0, v.jsx)(y.Screen, {
+            (0, v.jsx)(h.Screen, { name: "AHA ACLS", component: c.default }),
+            (0, v.jsx)(h.Screen, {
               name: "Cardiac Arrest",
               component: u.default,
               options: function (t) {
@@ -14510,21 +14511,24 @@ __d(
                 var n = t.route;
                 return {
                   headerRight: function () {
-                    return (0, v.jsx)(f.default, {
-                      onPress: function () {
-                        return (n.params.modalVisible = !0);
-                      },
-                      title: "Log",
+                    return (0, v.jsx)(l.default, {
+                      style: { paddingRight: 10 },
+                      children: (0, v.jsx)(f.default, {
+                        onPress: function () {
+                          return (n.params.modalVisible = !0);
+                        },
+                        title: "Log",
+                      }),
                     });
                   },
                 };
               },
             }),
-            (0, v.jsx)(y.Screen, { name: "Tachycardia", component: l.default }),
-            (0, v.jsx)(y.Screen, { name: "Bradycardia", component: s.default }),
-            (0, v.jsx)(y.Screen, {
+            (0, v.jsx)(h.Screen, { name: "Tachycardia", component: s.default }),
+            (0, v.jsx)(h.Screen, { name: "Bradycardia", component: p.default }),
+            (0, v.jsx)(h.Screen, {
               name: "Post Cardiac Arrest Care",
-              component: p.default,
+              component: j.default,
             }),
           ],
         }),
@@ -14532,7 +14536,7 @@ __d(
     };
   },
   141,
-  [1, 18, 142, 267, 391, 398, 93, 104, 392, 405, 406, 407, 396]
+  [1, 18, 142, 267, 391, 398, 93, 104, 392, 272, 405, 406, 407, 396]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -39264,7 +39268,7 @@ __d(
     m.exports = r(d[0]).registerAsset({
       __packager_asset: !0,
       httpServerLocation:
-        "/assets/img",
+        "./assets/img",
       width: 96,
       height: 96,
       scales: [1],
@@ -39282,7 +39286,7 @@ __d(
     m.exports = r(d[0]).registerAsset({
       __packager_asset: !0,
       httpServerLocation:
-        "/assets/img",
+        "./assets/img",
       width: 50,
       height: 85,
       scales: [1],
