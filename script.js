@@ -39264,7 +39264,7 @@ __d(
     m.exports = r(d[0]).registerAsset({
       __packager_asset: !0,
       httpServerLocation:
-        "./assets/img",
+        "/assets/img",
       width: 96,
       height: 96,
       scales: [1],
@@ -39282,7 +39282,7 @@ __d(
     m.exports = r(d[0]).registerAsset({
       __packager_asset: !0,
       httpServerLocation:
-        "./assets/img",
+        "/assets/img",
       width: 50,
       height: 85,
       scales: [1],
@@ -40162,8 +40162,8 @@ __d(
         flex: "1 1 0",
         textAlign: "center",
         textAlignVertical: "center",
-        fontSize: 16,
-        padding: 8,
+        fontSize: 15,
+        padding: 6,
       },
       row_button_button: {
         flex: "1 1 0",
@@ -41222,14 +41222,14 @@ __d(
       {
         title: "Doses/Details",
         description:
-          "Synchronized cardioversion: \nRefer to your specific device's recommended energy level to maximize first shock success. \nAdenosine IV dose: \nFirst dose: 6 mg rapid IV push; follow with NS flush. \nSecond dose: 12 mg if required. \nAntiarrhythmic Infusions for Stable Wide QRS Tachycardia \nProcainamide IV dose: \n20-50 mg/min until arrhythmia suppressed, hypotension ensues, QRS duration increases >50%, or maximum dose 17 mg/kg given. \nMaintenance infusion: 1-4 mg/min. \nAvoid if prolonged QT or CHF. \nAmiodarone IV dose: \nFirst dose: 150 mg over 10 minutes. \nRepeat as needed if VT recurs. \nFollow by maintenance infusion of 1 mg/min for first 6 hours. \nSotalol IV dose: \n100 mg (1.5 mg/kg) over 5 minutes. Avoid if prolonged QT.",
+          "Synchronized cardioversion:\nRefer to your specific device's recommended energy level to maximize first shock success.\nAdenosine IV dose:\nFirst dose: 6 mg rapid IV push; follow with NS flush.\nSecond dose: 12 mg if required.\nAntiarrhythmic Infusions for Stable Wide QRS Tachycardia\nProcainamide IV dose:\n20-50 mg/min until arrhythmia suppressed, hypotension ensues, QRS duration increases >50%, or maximum dose 17 mg/kg given.\nMaintenance infusion: 1-4 mg/min.\nAvoid if prolonged QT or CHF.\nAmiodarone IV dose:\nFirst dose: 150 mg over 10 minutes.\nRepeat as needed if VT recurs.\nFollow by maintenance infusion of 1 mg/min for first 6 hours.\nSotalol IV dose:\n100 mg (1.5 mg/kg) over 5 minutes. Avoid if prolonged QT.",
       },
     ];
     e.default = function (n) {
       n.navigation;
       return (0, f.jsx)(c.default, {
+        style: u.default.container,
         children: (0, f.jsxs)(s.default, {
-          style: u.default.container,
           children: [
             (0, f.jsx)(i.default, {
               style: p(p({}, u.default.image), {}, { aspectRatio: 0.56 }),
